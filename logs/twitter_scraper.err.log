@@ -1,0 +1,17 @@
+2025-11-06T16:38:49: 2025-11-06 16:38:49.158 | WARNING  | twscrape.queue_client:_check_rep:239 - API unknown error: 200 - 47/50 - AlthaC93758 - (0) Dependency: Unspecified
+2025-11-06T16:56:18: Traceback (most recent call last):
+2025-11-06T16:56:18:   File "/home/anirudh/Desktop/data-universe-final-Server/twitter_suite/cli.py", line 1045, in <module>
+2025-11-06T16:56:18:     main()
+2025-11-06T16:56:18:   File "/home/anirudh/Desktop/data-universe-final-Server/twitter_suite/cli.py", line 1041, in main
+2025-11-06T16:56:18:     asyncio.run(args.func(args))
+2025-11-06T16:56:18:   File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+2025-11-06T16:56:18:     return loop.run_until_complete(main)
+2025-11-06T16:56:18:   File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+2025-11-06T16:56:18:     self.run_forever()
+2025-11-06T16:56:18:   File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+2025-11-06T16:56:18:     self._run_once()
+2025-11-06T16:56:18:   File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+2025-11-06T16:56:18:     event_list = self._selector.select(timeout)
+2025-11-06T16:56:18:   File "/usr/lib/python3.10/selectors.py", line 469, in select
+2025-11-06T16:56:18:     fd_event_list = self._selector.poll(timeout, max_ev)
+2025-11-06T16:56:18: KeyboardInterrupt
